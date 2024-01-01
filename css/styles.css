@@ -11,11 +11,10 @@ body {
     line-height: 24px; /* or 1.5*/
     background-color: #fff;
     color: #444;
-}
 
 
 /* CONTAINER */
-.container {
+    .container {
     width: 100%;
     max-width: 1160px;
     padding-left: 30px;
@@ -23,6 +22,152 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+
+/* SITE-HEADER */
+
+.site-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+.site-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* SITE-LOGO */
+
+.site-logo {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+}
+
+.site-logo-site-footer {
+    color: #fff;
+}
+
+.site-logo:hover {
+    color: #de2e54;
+}
+
+.site-logo:active {
+    opacity: 0.6;
+}
+
+.site-logo-site-footer:active {
+    color: #fff;
+}
+
+/* site-footer 05:00 min tugadi */
+
+
+.site-logo-img {
+    margin-right: 16px;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+/* SITENAV */
+
+.sitenav {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.sitenav {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sitenav-list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sitenav-item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.sitenav-link {
+    display: block;
+    color: #222;
+    text-decoration: none;
+}
+
+.sitenav-link:hover {
+    color: #de2e54;
+}
+
+.sitenav-link:active {
+    opacity: 0.6;
+}
+
+.sitenav-site-footer .sitenav-link {
+    color: #fff;
+}
+
+.sitenav-site-footer .sitenav-link:hover {
+    color: #de2e54;
+}
+
+.sitenav-site-footer .sitenav-link:active {
+    color: #fff ;
+}
+
+
+
+/* MAIN-LINK */
+
+.main-link {
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: "Open sans Condensed", "Ariail", sans-serif;
+    letter-spacing: 2px;
+    background-color: #de2e54;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* SITE-FOOTER */
+
+.site-footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #222;
+    color: #fff;
+}
+
+.site-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 
 
 
